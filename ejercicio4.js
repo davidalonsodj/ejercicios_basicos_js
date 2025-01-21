@@ -9,4 +9,4 @@ const aldeanos = ["Fibrilio", "Narciso", "Vacarena", "Tendo", "Nendo"];
 // Pista: puedes usar el método length con algo más para ello.
 
 
-console.log(aldeanos.tendo);
+console.log(aldeanos[3]);
