@@ -1,5 +1,5 @@
 //Dado el siguiente array:
-const aldeanos = ["Fibrilio", "Narciso", "Vacarena", "Tendo", "Nendo"];
+const aldeanos = ["Bambina","Fibrilio", "Narciso", "Vacarena", "Tendo", "Nendo","Cervasio"];
 //4.1 - Saca a "Tendo" por consola atacando su posición.
 //4.2 - Coloca en el último lugar de este array a "Cervasio".
 //4.3 - Cambia el primer elemento de este array por "Bambina".
@@ -10,3 +10,8 @@ const aldeanos = ["Fibrilio", "Narciso", "Vacarena", "Tendo", "Nendo"];
 
 
 console.log(aldeanos[3]);
+aldeanos.push("Cervasio");
+aldeanos.unshift("Bambina");
+aldeanos.reverse();
+aldeanos.splice(4,1,"Canela");
+console.log(aldeanos[aldeanos.length-1]);
