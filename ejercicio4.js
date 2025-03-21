@@ -8,4 +8,5 @@ const aldeanos = ["Fibrilio", "Narciso", "Vacarena", "Tendo", "Nendo"];
 //4.6 - Imprime por consola el último elemento de este array sin atacar a la posición explicitamente
 // Pista: puedes usar el método length con algo más para ello.
 
-console.log(aldeanos(4));
+console.log(aldeanos[3]);
+aldeanos.push("Cervasio")
